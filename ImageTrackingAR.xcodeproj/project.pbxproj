@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B56F5792266F5E800EB6BE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56F5782266F5E800EB6BE6 /* AppDelegate.swift */; };
+		9B56F57B2266F5E800EB6BE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56F57A2266F5E800EB6BE6 /* ViewController.swift */; };
+		9B56F57E2266F5E800EB6BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B56F57C2266F5E800EB6BE6 /* Main.storyboard */; };
+		9B56F5802266F5EA00EB6BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B56F57F2266F5EA00EB6BE6 /* Assets.xcassets */; };
+		9B56F5832266F5EB00EB6BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B56F5812266F5EB00EB6BE6 /* LaunchScreen.storyboard */; };
+		9B56F58C2266F67800EB6BE6 /* HomePageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56F58B2266F67800EB6BE6 /* HomePageButton.swift */; };
+		9B56F58E2266FE9E00EB6BE6 /* ARViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B56F58D2266FE9E00EB6BE6 /* ARViewContoller.swift */; };
+		9B56F591226702D500EB6BE6 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B56F58F226702D500EB6BE6 /* smoke.png */; };
+		9B56F592226702D500EB6BE6 /* Smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9B56F590226702D500EB6BE6 /* Smoke.scnp */; };
+		9B8D0916226705EF00239228 /* ModelManipulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8D0915226705EF00239228 /* ModelManipulator.swift */; };
+		9B8D0938226709DD00239228 /* UFO_A_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0919226709DD00239228 /* UFO_A_Normal.jpg */; };
+		9B8D0939226709DD00239228 /* UFO_A_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D091A226709DD00239228 /* UFO_A_Diffuse.jpg */; };
+		9B8D093A226709DD00239228 /* UFO_A.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D091B226709DD00239228 /* UFO_A.dae */; };
+		9B8D093B226709DD00239228 /* UFO_F_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D091D226709DD00239228 /* UFO_F_Normal.jpg */; };
+		9B8D093C226709DD00239228 /* UFO_F.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D091E226709DD00239228 /* UFO_F.dae */; };
+		9B8D093D226709DD00239228 /* UFO_F_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D091F226709DD00239228 /* UFO_F_Diffuse.jpg */; };
+		9B8D093E226709DD00239228 /* UFO_Emission.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0921226709DD00239228 /* UFO_Emission.png */; };
+		9B8D093F226709DD00239228 /* UFO_Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0922226709DD00239228 /* UFO_Normal.png */; };
+		9B8D0940226709DD00239228 /* Alpha_UFO.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0923226709DD00239228 /* Alpha_UFO.dae */; };
+		9B8D0941226709DD00239228 /* UFO_Specular.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0924226709DD00239228 /* UFO_Specular.png */; };
+		9B8D0942226709DD00239228 /* UFO_Glossiness.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0925226709DD00239228 /* UFO_Glossiness.png */; };
+		9B8D0943226709DD00239228 /* UFO_Roughness.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0926226709DD00239228 /* UFO_Roughness.png */; };
+		9B8D0944226709DD00239228 /* UFO_Diffuse.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0927226709DD00239228 /* UFO_Diffuse.png */; };
+		9B8D0945226709DD00239228 /* UFO_C_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0929226709DD00239228 /* UFO_C_Normal.jpg */; };
+		9B8D0946226709DD00239228 /* UFO_C.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D092A226709DD00239228 /* UFO_C.dae */; };
+		9B8D0947226709DD00239228 /* UFO_C_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D092B226709DD00239228 /* UFO_C_Diffuse.jpg */; };
+		9B8D0948226709DD00239228 /* UFO_D_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D092D226709DD00239228 /* UFO_D_Diffuse.jpg */; };
+		9B8D0949226709DD00239228 /* UFO_D_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D092E226709DD00239228 /* UFO_D_Normal.jpg */; };
+		9B8D094A226709DD00239228 /* UFO_D.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D092F226709DD00239228 /* UFO_D.dae */; };
+		9B8D094B226709DD00239228 /* UFO_E_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0931226709DD00239228 /* UFO_E_Normal.jpg */; };
+		9B8D094C226709DD00239228 /* UFO_E_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0932226709DD00239228 /* UFO_E_Diffuse.jpg */; };
+		9B8D094D226709DD00239228 /* UFO_E.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0933226709DD00239228 /* UFO_E.dae */; };
+		9B8D094E226709DD00239228 /* UFO_B_Diffuse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0935226709DD00239228 /* UFO_B_Diffuse.jpg */; };
+		9B8D094F226709DD00239228 /* UFO_B.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0936226709DD00239228 /* UFO_B.dae */; };
+		9B8D0950226709DD00239228 /* UFO_B_Normal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D0937226709DD00239228 /* UFO_B_Normal.jpg */; };
+		9B8D09762267524300239228 /* smkey.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9B8D09752267524300239228 /* smkey.scnp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B56F5752266F5E800EB6BE6 /* ImageTrackingAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageTrackingAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B56F5782266F5E800EB6BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B56F57A2266F5E800EB6BE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B56F57D2266F5E800EB6BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B56F57F2266F5EA00EB6BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B56F5822266F5EB00EB6BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B56F5842266F5EB00EB6BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B56F58B2266F67800EB6BE6 /* HomePageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageButton.swift; sourceTree = "<group>"; };
+		9B56F58D2266FE9E00EB6BE6 /* ARViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContoller.swift; sourceTree = "<group>"; };
+		9B56F58F226702D500EB6BE6 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		9B56F590226702D500EB6BE6 /* Smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = Smoke.scnp; sourceTree = "<group>"; };
+		9B8D0915226705EF00239228 /* ModelManipulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManipulator.swift; sourceTree = "<group>"; };
+		9B8D0919226709DD00239228 /* UFO_A_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_A_Normal.jpg; sourceTree = "<group>"; };
+		9B8D091A226709DD00239228 /* UFO_A_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_A_Diffuse.jpg; sourceTree = "<group>"; };
+		9B8D091B226709DD00239228 /* UFO_A.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_A.dae; sourceTree = "<group>"; };
+		9B8D091D226709DD00239228 /* UFO_F_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_F_Normal.jpg; sourceTree = "<group>"; };
+		9B8D091E226709DD00239228 /* UFO_F.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_F.dae; sourceTree = "<group>"; };
+		9B8D091F226709DD00239228 /* UFO_F_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_F_Diffuse.jpg; sourceTree = "<group>"; };
+		9B8D0921226709DD00239228 /* UFO_Emission.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Emission.png; sourceTree = "<group>"; };
+		9B8D0922226709DD00239228 /* UFO_Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Normal.png; sourceTree = "<group>"; };
+		9B8D0923226709DD00239228 /* Alpha_UFO.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Alpha_UFO.dae; sourceTree = "<group>"; };
+		9B8D0924226709DD00239228 /* UFO_Specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Specular.png; sourceTree = "<group>"; };
+		9B8D0925226709DD00239228 /* UFO_Glossiness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Glossiness.png; sourceTree = "<group>"; };
+		9B8D0926226709DD00239228 /* UFO_Roughness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Roughness.png; sourceTree = "<group>"; };
+		9B8D0927226709DD00239228 /* UFO_Diffuse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UFO_Diffuse.png; sourceTree = "<group>"; };
+		9B8D0929226709DD00239228 /* UFO_C_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_C_Normal.jpg; sourceTree = "<group>"; };
+		9B8D092A226709DD00239228 /* UFO_C.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_C.dae; sourceTree = "<group>"; };
+		9B8D092B226709DD00239228 /* UFO_C_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_C_Diffuse.jpg; sourceTree = "<group>"; };
+		9B8D092D226709DD00239228 /* UFO_D_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_D_Diffuse.jpg; sourceTree = "<group>"; };
+		9B8D092E226709DD00239228 /* UFO_D_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_D_Normal.jpg; sourceTree = "<group>"; };
+		9B8D092F226709DD00239228 /* UFO_D.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_D.dae; sourceTree = "<group>"; };
+		9B8D0931226709DD00239228 /* UFO_E_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_E_Normal.jpg; sourceTree = "<group>"; };
+		9B8D0932226709DD00239228 /* UFO_E_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_E_Diffuse.jpg; sourceTree = "<group>"; };
+		9B8D0933226709DD00239228 /* UFO_E.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_E.dae; sourceTree = "<group>"; };
+		9B8D0935226709DD00239228 /* UFO_B_Diffuse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_B_Diffuse.jpg; sourceTree = "<group>"; };
+		9B8D0936226709DD00239228 /* UFO_B.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = UFO_B.dae; sourceTree = "<group>"; };
+		9B8D0937226709DD00239228 /* UFO_B_Normal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UFO_B_Normal.jpg; sourceTree = "<group>"; };
+		9B8D09752267524300239228 /* smkey.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smkey.scnp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B56F5722266F5E800EB6BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B56F56C2266F5E800EB6BE6 = {
+			isa = PBXGroup;
+			children = (
+				9B56F5772266F5E800EB6BE6 /* ImageTrackingAR */,
+				9B56F5762266F5E800EB6BE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B56F5762266F5E800EB6BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B56F5752266F5E800EB6BE6 /* ImageTrackingAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B56F5772266F5E800EB6BE6 /* ImageTrackingAR */ = {
+			isa = PBXGroup;
+			children = (
+				9B56F58A2266F63500EB6BE6 /* Custom Button */,
+				9B56F5782266F5E800EB6BE6 /* AppDelegate.swift */,
+				9B8D0915226705EF00239228 /* ModelManipulator.swift */,
+				9B56F57A2266F5E800EB6BE6 /* ViewController.swift */,
+				9B56F58D2266FE9E00EB6BE6 /* ARViewContoller.swift */,
+				9B8D09742267327100239228 /* Resources */,
+			);
+			path = ImageTrackingAR;
+			sourceTree = "<group>";
+		};
+		9B56F58A2266F63500EB6BE6 /* Custom Button */ = {
+			isa = PBXGroup;
+			children = (
+				9B56F58B2266F67800EB6BE6 /* HomePageButton.swift */,
+			);
+			path = "Custom Button";
+			sourceTree = "<group>";
+		};
+		9B8D0917226709DD00239228 /* UFO */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D0918226709DD00239228 /* UFO_A */,
+				9B8D091C226709DD00239228 /* UFO_F */,
+				9B8D0920226709DD00239228 /* Alpha_UFO */,
+				9B8D0928226709DD00239228 /* UFO_C */,
+				9B8D092C226709DD00239228 /* UFO_D */,
+				9B8D0930226709DD00239228 /* UFO_E */,
+				9B8D0934226709DD00239228 /* UFO_B */,
+			);
+			path = UFO;
+			sourceTree = "<group>";
+		};
+		9B8D0918226709DD00239228 /* UFO_A */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D0919226709DD00239228 /* UFO_A_Normal.jpg */,
+				9B8D091A226709DD00239228 /* UFO_A_Diffuse.jpg */,
+				9B8D091B226709DD00239228 /* UFO_A.dae */,
+			);
+			path = UFO_A;
+			sourceTree = "<group>";
+		};
+		9B8D091C226709DD00239228 /* UFO_F */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D091D226709DD00239228 /* UFO_F_Normal.jpg */,
+				9B8D091E226709DD00239228 /* UFO_F.dae */,
+				9B8D091F226709DD00239228 /* UFO_F_Diffuse.jpg */,
+			);
+			path = UFO_F;
+			sourceTree = "<group>";
+		};
+		9B8D0920226709DD00239228 /* Alpha_UFO */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D0921226709DD00239228 /* UFO_Emission.png */,
+				9B8D0922226709DD00239228 /* UFO_Normal.png */,
+				9B8D0923226709DD00239228 /* Alpha_UFO.dae */,
+				9B8D0924226709DD00239228 /* UFO_Specular.png */,
+				9B8D0925226709DD00239228 /* UFO_Glossiness.png */,
+				9B8D0926226709DD00239228 /* UFO_Roughness.png */,
+				9B8D0927226709DD00239228 /* UFO_Diffuse.png */,
+			);
+			path = Alpha_UFO;
+			sourceTree = "<group>";
+		};
+		9B8D0928226709DD00239228 /* UFO_C */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D0929226709DD00239228 /* UFO_C_Normal.jpg */,
+				9B8D092A226709DD00239228 /* UFO_C.dae */,
+				9B8D092B226709DD00239228 /* UFO_C_Diffuse.jpg */,
+			);
+			path = UFO_C;
+			sourceTree = "<group>";
+		};
+		9B8D092C226709DD00239228 /* UFO_D */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D092D226709DD00239228 /* UFO_D_Diffuse.jpg */,
+				9B8D092E226709DD00239228 /* UFO_D_Normal.jpg */,
+				9B8D092F226709DD00239228 /* UFO_D.dae */,
+			);
+			path = UFO_D;
+			sourceTree = "<group>";
+		};
+		9B8D0930226709DD00239228 /* UFO_E */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D0931226709DD00239228 /* UFO_E_Normal.jpg */,
+				9B8D0932226709DD00239228 /* UFO_E_Diffuse.jpg */,
+				9B8D0933226709DD00239228 /* UFO_E.dae */,
+			);
+			path = UFO_E;
+			sourceTree = "<group>";
+		};
+		9B8D0934226709DD00239228 /* UFO_B */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D0935226709DD00239228 /* UFO_B_Diffuse.jpg */,
+				9B8D0936226709DD00239228 /* UFO_B.dae */,
+				9B8D0937226709DD00239228 /* UFO_B_Normal.jpg */,
+			);
+			path = UFO_B;
+			sourceTree = "<group>";
+		};
+		9B8D09742267327100239228 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B8D0917226709DD00239228 /* UFO */,
+				9B56F57C2266F5E800EB6BE6 /* Main.storyboard */,
+				9B56F5812266F5EB00EB6BE6 /* LaunchScreen.storyboard */,
+				9B56F57F2266F5EA00EB6BE6 /* Assets.xcassets */,
+				9B56F5842266F5EB00EB6BE6 /* Info.plist */,
+				9B56F58F226702D500EB6BE6 /* smoke.png */,
+				9B56F590226702D500EB6BE6 /* Smoke.scnp */,
+				9B8D09752267524300239228 /* smkey.scnp */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B56F5742266F5E800EB6BE6 /* ImageTrackingAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B56F5872266F5EB00EB6BE6 /* Build configuration list for PBXNativeTarget "ImageTrackingAR" */;
+			buildPhases = (
+				9B56F5712266F5E800EB6BE6 /* Sources */,
+				9B56F5722266F5E800EB6BE6 /* Frameworks */,
+				9B56F5732266F5E800EB6BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageTrackingAR;
+			productName = ImageTrackingAR;
+			productReference = 9B56F5752266F5E800EB6BE6 /* ImageTrackingAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B56F56D2266F5E800EB6BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Boppo;
+				TargetAttributes = {
+					9B56F5742266F5E800EB6BE6 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 9B56F5702266F5E800EB6BE6 /* Build configuration list for PBXProject "ImageTrackingAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B56F56C2266F5E800EB6BE6;
+			productRefGroup = 9B56F5762266F5E800EB6BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B56F5742266F5E800EB6BE6 /* ImageTrackingAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B56F5732266F5E800EB6BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B56F5832266F5EB00EB6BE6 /* LaunchScreen.storyboard in Resources */,
+				9B8D0947226709DD00239228 /* UFO_C_Diffuse.jpg in Resources */,
+				9B8D094B226709DD00239228 /* UFO_E_Normal.jpg in Resources */,
+				9B56F592226702D500EB6BE6 /* Smoke.scnp in Resources */,
+				9B8D094E226709DD00239228 /* UFO_B_Diffuse.jpg in Resources */,
+				9B8D0940226709DD00239228 /* Alpha_UFO.dae in Resources */,
+				9B8D09762267524300239228 /* smkey.scnp in Resources */,
+				9B8D094C226709DD00239228 /* UFO_E_Diffuse.jpg in Resources */,
+				9B56F5802266F5EA00EB6BE6 /* Assets.xcassets in Resources */,
+				9B8D093B226709DD00239228 /* UFO_F_Normal.jpg in Resources */,
+				9B8D093A226709DD00239228 /* UFO_A.dae in Resources */,
+				9B8D093D226709DD00239228 /* UFO_F_Diffuse.jpg in Resources */,
+				9B8D0941226709DD00239228 /* UFO_Specular.png in Resources */,
+				9B8D094D226709DD00239228 /* UFO_E.dae in Resources */,
+				9B8D0943226709DD00239228 /* UFO_Roughness.png in Resources */,
+				9B8D0946226709DD00239228 /* UFO_C.dae in Resources */,
+				9B8D0949226709DD00239228 /* UFO_D_Normal.jpg in Resources */,
+				9B8D0945226709DD00239228 /* UFO_C_Normal.jpg in Resources */,
+				9B8D0948226709DD00239228 /* UFO_D_Diffuse.jpg in Resources */,
+				9B8D0950226709DD00239228 /* UFO_B_Normal.jpg in Resources */,
+				9B8D094A226709DD00239228 /* UFO_D.dae in Resources */,
+				9B8D094F226709DD00239228 /* UFO_B.dae in Resources */,
+				9B8D0942226709DD00239228 /* UFO_Glossiness.png in Resources */,
+				9B8D0938226709DD00239228 /* UFO_A_Normal.jpg in Resources */,
+				9B8D093E226709DD00239228 /* UFO_Emission.png in Resources */,
+				9B8D093F226709DD00239228 /* UFO_Normal.png in Resources */,
+				9B56F57E2266F5E800EB6BE6 /* Main.storyboard in Resources */,
+				9B8D0939226709DD00239228 /* UFO_A_Diffuse.jpg in Resources */,
+				9B8D093C226709DD00239228 /* UFO_F.dae in Resources */,
+				9B56F591226702D500EB6BE6 /* smoke.png in Resources */,
+				9B8D0944226709DD00239228 /* UFO_Diffuse.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B56F5712266F5E800EB6BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B56F58E2266FE9E00EB6BE6 /* ARViewContoller.swift in Sources */,
+				9B56F57B2266F5E800EB6BE6 /* ViewController.swift in Sources */,
+				9B8D0916226705EF00239228 /* ModelManipulator.swift in Sources */,
+				9B56F58C2266F67800EB6BE6 /* HomePageButton.swift in Sources */,
+				9B56F5792266F5E800EB6BE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B56F57C2266F5E800EB6BE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B56F57D2266F5E800EB6BE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B56F5812266F5EB00EB6BE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B56F5822266F5EB00EB6BE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B56F5852266F5EB00EB6BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B56F5862266F5EB00EB6BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B56F5882266F5EB00EB6BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46VFTMYGW3;
+				INFOPLIST_FILE = ImageTrackingAR/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boppo.ImageTrackingAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B56F5892266F5EB00EB6BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46VFTMYGW3;
+				INFOPLIST_FILE = ImageTrackingAR/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boppo.ImageTrackingAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B56F5702266F5E800EB6BE6 /* Build configuration list for PBXProject "ImageTrackingAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B56F5852266F5EB00EB6BE6 /* Debug */,
+				9B56F5862266F5EB00EB6BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B56F5872266F5EB00EB6BE6 /* Build configuration list for PBXNativeTarget "ImageTrackingAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B56F5882266F5EB00EB6BE6 /* Debug */,
+				9B56F5892266F5EB00EB6BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B56F56D2266F5E800EB6BE6 /* Project object */;
+}
